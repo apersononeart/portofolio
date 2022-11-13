@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ThisAqilah</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="aqilahStyle.css">
+	</head>
+
+	<body>
+		<div class="hero">
+			<nav>
+				<li>
+					<ul><a href="">Home</a></ul>
+					<ul><a href="">My Journey</a></ul>
+					<ul><a href="">About me</a></ul>
+				</li>
+				<img src="myself2.png" alt="" class="me" onclick="toggleMenu()">
+
+				<div class="sub-menu-wrap" id="subMenu">
+					<div class="sub-menu">
+						<div class="user-info">
+							<img src="myself2.png" alt="" class="me">
+							<h3>Fathimah Aqilah</h3>
+						</div>
+						<hr class="hr-1">
+
+						<a href="" class="sub-menu-link">
+							<img src="profile.png" alt="">
+							<p>profile</p>
+							<span>></span>
+						</a>
+						<a href="" class="sub-menu-link">
+							<img src="contact.png" alt="">
+							<p>contact</p>
+							<span>></span>
+						</a>
+
+						<hr class="hr-2">
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<img src="decor3.png" alt="" class="decor4">
+		<img src="decor3.png" alt="" class="decor3">
+		<img src="decor1.png" alt="" class="decor2">
+		<img src="decor1.png" alt="" class="decor1">
+
+		<div class="intro">
+			<img src="myself.png" alt="">
+			<div class="intro-desc">
+				<h1>Hi</h1>
+				<h1>I'm <strong>Aqilah</strong></h1>
+				<p>A <code>9<sup>th</sup> grader</code> and a soon <br>to be a high schooler</p>
+			</div>
+			<!-- <div class="intro-audio">
+				<audio controls>
+					<source src="Aqilah intro.ogg" type="audio/ogg">
+				</audio>
+			</div> -->
+		</div>
+
+
+		<div class="container">
+            <div class="shadow"></div>
+            <div class="cat">
+                <div class="ear"></div>
+                <div class="eye"></div>
+                <div class="mouth"></div>
+                <div class="nose"></div>
+                <div class="tail"></div>
+                <div class="body"></div>
+                <div class="bubble"></div>
+            </div>
+        </div>
+
+
+		<div class="devider1"></div>
+
+		<div class="bio">
+			<div class="bio-desc">
+				<h1>Get To Know Me More!</h1>
+			</div>
+		</div>
+
+	<script>
+		let subMenu = document.getElementById(subMenu);
+
+		function toggleMenu(){
+			subMenu.classList.toggle('open-menu')
+		}
+	</script>
+		
+	</body>
+</html>
