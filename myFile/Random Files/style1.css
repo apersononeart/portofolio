@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	position: absolute;
+}
+
+.header {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+}
+
+.header li {
+	font-size: 20px;
+	float: right;
+	list-style-type: none;
+}
+
+.header li a {
+	text-decoration: none;
+	padding: 16px;
+	color: aliceblue;
+}
+
+.header li a:hover {
+	padding: 16px;
+	display: block;
+	background-color: rgb(24, 24, 24);
+}
+
+.content p {
+	width: 100%;
+	font-size: 30px;
+	padding: 16px;
+	padding-top: 30px;
+}
+
